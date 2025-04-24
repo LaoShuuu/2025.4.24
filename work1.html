@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+</head>
+<style>
+    
+    .container {
+        display: flex;
+        flex-direction: row;  
+        flex-wrap: wrap;
+      }
+    .item {
+        background: cyan;
+        padding: 10px;
+        margin: 10px;
+      }	  
+    .flexcontainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .flexitem{
+        width: 33%;
+        height:300px;
+        background-color: rgb(111, 119, 98);
+        }
+    
+    
+</style>
+<body style="background-color: lightgoldenrodyellow;">
+    <div class="flexcontainer">
+        <div class="item">頁首</div>
+
+        <div class="flexitem"><h1>區塊1</h1></div>
+        <div class="flexitem"><h1>區塊2</h1></div>
+        <div class="flexitem"><h1>區塊3</h1></div>
+
+
+        <div class="item">頁尾</div>
+
+      </div>
+</body>
+</html>
