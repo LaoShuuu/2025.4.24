@@ -6,10 +6,10 @@
     <title>Index</title>
 </head>
 <body>
-    <a href="flex.html"></a>
-    <a href="layouttest.html"></a>
-    <a href="work1.html"></a>
-    <a href="work2.html"></a>
+    <lo><a href="flex.html">Flex</a></lo><br>
+    <lo><a href="layouttest.html">Layouttest</a></lo><br>
+    <lo><a href="work1.html">Work1</a></lo><br>
+    <lo><a href="work2.html">Work2</a></lo><br>
 
 </body>
 </html>
